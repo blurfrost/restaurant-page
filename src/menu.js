@@ -36,4 +36,6 @@ export const updateMenu = () => {
     const bird = document.createElement("img");
     bird.src = pepperBird;
     content.appendChild(bird);
+
+    console.log("Loaded menu page");
 }
