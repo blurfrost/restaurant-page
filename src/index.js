@@ -1,3 +1,8 @@
 import "./styles.css";
+import { updateHome } from "./home";
 
-console.log("Hello!")
+updateHome();
+
+const homeButton = document.querySelector("#home");
+
+homeButton.addEventListener("click", updateHome);

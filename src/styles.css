@@ -20,3 +20,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+img {
+    max-height: 30vh;
+    width: auto;
+}
