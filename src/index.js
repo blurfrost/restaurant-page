@@ -1,6 +1,7 @@
 import "./styles.css";
 import { updateHome } from "./home";
 import { updateMenu } from "./menu";
+import { updateAbout } from "./about";
 
 updateHome();
 
@@ -9,3 +10,6 @@ homeButton.addEventListener("click", updateHome);
 
 const menuButton = document.querySelector("#menu");
 menuButton.addEventListener("click", updateMenu);
+
+const aboutButton = document.querySelector("#about");
+aboutButton.addEventListener("click", updateAbout);
